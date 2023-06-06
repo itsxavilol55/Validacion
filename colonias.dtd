@@ -1,0 +1,27 @@
+<!ELEMENT Colonias (Colonia+)>
+<!ELEMENT Colonia (Casa+)>
+<!ATTLIST Colonia Nombre CDATA #REQUIRED>
+
+<!ELEMENT Casa (Persona*, Auto*)>
+<!ATTLIST Casa Precio CDATA #IMPLIED>
+<!ATTLIST Casa Numero CDATA #REQUIRED>
+<!ATTLIST Casa Propietario IDREFS #REQUIRED>
+
+<!ELEMENT Persona (Nombre, Correo?, Celular*)>
+<!ATTLIST Persona Genero (Masculino|Femenino|Noespecificado) "Noespecificado">
+<!ATTLIST Persona Edad CDATA #REQUIRED>
+<!ATTLIST Persona ID ID #REQUIRED>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Correo (#PCDATA)>
+<!ELEMENT Celular (Marca, Modelo)>
+
+<!ELEMENT Auto (Placa, Marca, Modelo)>
+<!ATTLIST Auto Precio CDATA #REQUIRED>
+<!ATTLIST Auto Color CDATA #IMPLIED>
+<!ATTLIST Auto year CDATA #REQUIRED>
+<!ATTLIST Auto Propietario IDREFS #REQUIRED>
+
+<!ELEMENT Placa (#PCDATA)>
+<!ELEMENT Marca (#PCDATA)>
+<!ELEMENT Modelo (#PCDATA)>

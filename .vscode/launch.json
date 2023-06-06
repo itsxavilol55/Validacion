@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DOM",
+            "request": "launch",
+            "mainClass": "DOM",
+            "projectName": "Validacion_e73e2751",
+            "args": [
+                "Colonias.xml"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "XMLBIENFORMADO",
+            "request": "launch",
+            "mainClass": "XMLBIENFORMADO",
+            "projectName": "Validacion_e73e2751",
+            "args": [
+                "Colonias.xml"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "XMLVALIDO",
+            "request": "launch",
+            "mainClass": "XMLVALIDO",
+            "projectName": "Validacion_e73e2751",
+            "args": [
+                "Colonias.xml"
+            ]
+        }
+    ]
+}

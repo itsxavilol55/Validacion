@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Colonias SYSTEM "colonias.dtd">
+<Colonias>
+    <Colonia Nombre="Benito Juarez">
+        <Casa Numero="7771" Propietario="Juan">
+            <Persona Genero="Masculino" Edad="30" ID="Juan">
+                <Nombre>Juan Gomez</Nombre>
+                <Correo>juan@example.com</Correo>
+                <Celular>
+                    <Marca>Samsung</Marca>
+                    <Modelo>Galaxy S10</Modelo>
+                </Celular>
+            </Persona>
+            <Persona Genero="Femenino" Edad="28" ID="Maria">
+                <Nombre>Maria Jose</Nombre>
+                <Correo>maria@example.com</Correo>
+                <Celular>
+                    <Marca>Xiaomi</Marca>
+                    <Modelo>Redmi Note 12</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>Motorola</Marca>
+                    <Modelo>G5</Modelo>
+                </Celular>
+            </Persona>
+            <Persona Genero="Femenino" Edad="16" ID="Lupita">
+                <Nombre>Guadalupe Ramires</Nombre>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>Ipad</Modelo>
+                </Celular>
+            </Persona>
+            <Auto Precio="200000" Color="Gris" year="2020" Propietario="Juan">
+                <Placa>ABC123</Placa>
+                <Marca>Toyota</Marca>
+                <Modelo>Corolla</Modelo>
+            </Auto>
+            <Auto Precio="150000" Color="Azul" year="2018" Propietario="Maria">
+                <Placa>DEF456</Placa>
+                <Marca>Honda</Marca>
+                <Modelo>Civic</Modelo>
+            </Auto>
+        </Casa>
+        <Casa Numero="7772" Propietario="Maria">
+            <Persona Genero="Masculino" Edad="23" ID="Francisco">
+                <Nombre>Francisco Ramires</Nombre>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>iPhone 14</Modelo>
+                </Celular>
+            </Persona>
+        </Casa>
+    </Colonia>
+    <Colonia Nombre="Coyoacan">
+        <Casa Numero="124" Propietario="Luis">
+            <Persona Genero="Masculino" Edad="35" ID="Luis">
+                <Nombre>Luis Fernandez</Nombre>
+                <Correo>luis@example.com</Correo>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>iPhone 12</Modelo>
+                </Celular>
+            </Persona>
+            <Persona Genero="Femenino" Edad="32" ID="Laura">
+                <Nombre>Laura Martinez</Nombre>
+                <Correo>laura@example.com</Correo>
+                <Celular>
+                    <Marca>Samsung</Marca>
+                    <Modelo>Galaxy S20</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>LG</Marca>
+                    <Modelo>V30</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>Google</Marca>
+                    <Modelo>Pixel 5</Modelo>
+                </Celular>
+            </Persona>
+            <Auto Precio="180000" Color="Negro" year="2019" Propietario="Luis">
+                <Placa>GHI789</Placa>
+                <Marca>Ford</Marca>
+                <Modelo>Mustang</Modelo>
+            </Auto>
+            <Auto Precio="250000" Color="Blanco" year="2021" Propietario="Laura">
+                <Placa>JKL012</Placa>
+                <Marca>Audi</Marca>
+                <Modelo>A4</Modelo>
+            </Auto>
+        </Casa>
+        <Casa Numero="301" Propietario="Laura">
+            <Persona Genero="Femenino" Edad="40" ID="Ana">
+                <Nombre>Ana Perez</Nombre>
+                <Celular>
+                    <Marca>OnePlus</Marca>
+                    <Modelo>9 Pro</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>iPhone 11</Modelo>
+                </Celular>
+            </Persona>
+            <Persona Genero="Masculino" Edad="50" ID="Carlos">
+                <Nombre>Carlos Sanchez</Nombre>
+                <Celular>
+                    <Marca>Sony</Marca>
+                    <Modelo>Xperia 5 II</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>Google</Marca>
+                    <Modelo>Pixel 4a</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>Motorola</Marca>
+                    <Modelo>Razr</Modelo>
+                </Celular>
+            </Persona>
+            <Auto Precio="200000" Color="Gris" year="2022" Propietario="Ana">
+                <Placa>MNO345</Placa>
+                <Marca>Mercedes-Benz</Marca>
+                <Modelo>GLC</Modelo>
+            </Auto>
+            <Auto Precio="300000" Color="Plata" year="2023" Propietario="Carlos">
+                <Placa>PQR678</Placa>
+                <Marca>BMW</Marca>
+                <Modelo>X5</Modelo>
+            </Auto>
+        </Casa>
+    </Colonia>
+    <Colonia Nombre="Polanco">
+        <Casa Numero="501" Propietario="Roberto">
+            <Persona Genero="Masculino" Edad="45" ID="Roberto">
+                <Nombre>Roberto Rodriguez</Nombre>
+                <Correo>roberto@example.com</Correo>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>iPhone 12 Pro Max</Modelo>
+                </Celular>
+            </Persona>
+            <Auto Precio="350000" Color="Negro" year="2021" Propietario="Roberto">
+                <Placa>STU901</Placa>
+                <Marca>Lamborghini</Marca>
+                <Modelo>Aventador</Modelo>
+            </Auto>
+        </Casa>
+    </Colonia>
+    <Colonia Nombre="Miguel Hidalgo">
+        <Casa Numero="7643" Propietario="Arturo">
+            <Persona Genero="Masculino" Edad="45" ID="Arturo">
+                <Nombre>Arturo Lopez</Nombre>
+                <Correo>lopez@example.com</Correo>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>iPhone 12 Pro Max</Modelo>
+                </Celular>
+            </Persona>
+            <Auto Precio="3500000" Color="Negro" year="2021" Propietario="Arturo">
+                <Placa>STU901</Placa>
+                <Marca>Lamborghini</Marca>
+                <Modelo>Aventador</Modelo>
+            </Auto>
+        </Casa>
+        <Casa Numero="702" Propietario="Ana">
+            <Persona Genero="Femenino" Edad="27" ID="Karen">
+                <Nombre>Karen Torres</Nombre>
+                <Correo>karen@example.com</Correo>
+                <Celular>
+                    <Marca>Samsung</Marca>
+                    <Modelo>Galaxy S21</Modelo>
+                </Celular>
+                <Celular>
+                    <Marca>Apple</Marca>
+                    <Modelo>iPhone SE</Modelo>
+                </Celular>
+            </Persona>
+            <Auto Precio="220000" Color="Plateado" year="2020" Propietario="Karen">
+                <Placa>VWX234</Placa>
+                <Marca>Volvo</Marca>
+                <Modelo>XC60</Modelo>
+            </Auto>
+        </Casa>
+        <Casa Numero="102" Propietario="Pedro">
+            <Persona Genero="Masculino" Edad="40" ID="Pedro">
+                <Nombre>Pedro Lopez</Nombre>
+            </Persona>
+            <Auto Precio="180000" Color="Gris" year="2019" Propietario="Pedro">
+                <Placa>XYZ789</Placa>
+                <Marca>BMW</Marca>
+                <Modelo>X3</Modelo>
+            </Auto>
+        </Casa>
+    </Colonia>
+</Colonias>
